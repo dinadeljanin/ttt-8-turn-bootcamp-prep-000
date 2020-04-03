@@ -37,8 +37,8 @@ def turn(board)
   input = gets.chomp # get input
   input_to_index(input)
   # # base case
-  # if valid_move?(board, index) # if it's valid
-  #   move
+  if valid_move?(board, index) # if it's valid
+    move
   # else
   #   # turn(board) # recursive gru meme
   # end
