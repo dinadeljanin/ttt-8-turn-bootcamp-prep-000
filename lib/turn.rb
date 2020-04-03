@@ -29,7 +29,7 @@ def input_to_index(input)
 end
 
 def move(board, index, token = "X")
-  
+  board[input] = 'X'
 end
 
 def turn(board)
