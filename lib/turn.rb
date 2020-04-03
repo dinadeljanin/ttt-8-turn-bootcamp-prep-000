@@ -39,6 +39,7 @@ def turn(board)
   # # base case
   if valid_move?(board, index) # if it's valid
     move(board, index, char)
+  end
   # else
   #   # turn(board) # recursive gru meme
   # end
