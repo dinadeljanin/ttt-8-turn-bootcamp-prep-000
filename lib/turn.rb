@@ -41,6 +41,7 @@ def turn(board)
     move(board, index, char)
   else
     turn(board)
+  end
   # else
   #   # turn(board) # recursive gru meme
   # end
