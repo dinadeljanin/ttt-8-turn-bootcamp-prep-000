@@ -40,6 +40,7 @@ def turn(board)
   if valid_move?(board, index) # if it's valid
     move(board, index, char)
   else
+    turn(board)
   # else
   #   # turn(board) # recursive gru meme
   # end
